@@ -24,6 +24,8 @@
 #### [02-Trendset-倒计时模板](/html-template/02)
 
 > from https://webthemez.com/tag/free/
+>
+> ！ 仅支持当年
 
 ![02](img/02.png)
 
