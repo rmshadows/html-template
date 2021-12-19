@@ -25,7 +25,7 @@
 
 > from https://webthemez.com/tag/free/
 >
-> ！ 仅支持当年
+> ！ 最长仅支持倒计时一年！
 
 ![02](img/02.png)
 
