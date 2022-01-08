@@ -3,6 +3,8 @@
 ### 介绍
 自己从网络上收集的一些免费HTML模板
 
+仓库地址： https://gitee.com/rmshadows/html-template
+
 ### 模板
 
 ```
