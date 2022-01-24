@@ -121,6 +121,18 @@
 
 ![17](img/17.png)
 
+#### 18-社交分享
+
+> from https://sc.chinaz.com/moban/
+
+![18](img/18.png)
+
+#### 19-侧边栏
+
+>from https://sc.chinaz.com/moban/
+
+![19](img/19.png)
+
 ### 最后的最后
 
 祝大家生活愉快！
