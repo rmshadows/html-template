@@ -121,17 +121,27 @@
 
 ![17](img/17.png)
 
-#### 18-社交分享
+#### [18-社交分享](/html-template/18)
 
 > from https://sc.chinaz.com/moban/
 
 ![18](img/18.png)
 
-#### 19-侧边栏
+#### [19-侧边栏](/html-template/19)
 
 >from https://sc.chinaz.com/moban/
 
 ![19](img/19.png)
+
+#### [20-雨(Rain)](/html-template/20)
+
+> from https://drop.io  | Edit by [Ryan](https://gitee.com/rmshadows) —— 修改后已支持移动端
+
+![20](img/20.png)
+
+### 友情链接
+
+[Weather](http://rmshadows.gitee.io/html-template/websites/dist/)
 
 ### 最后的最后
 
