@@ -8,11 +8,11 @@
 # 要修改的文件路径(HTML文件和JS文件修改方法不同)
 html_fp="
 index.html
-"
+" 
 js_fp="
 js/app.edeb6736.js
-js/app.edeb6736.js.map
 "
+# js/app.edeb6736.js.map
 # 要修改的root前缀(`/js/`就是`/`；`https://baidu.com/js/`就是`https://baidu.com/`)
 wroot="/"
 # 目标root前缀(假设chroot="https://baidu.com/",修改后`js/`就是`https://baidu.com/js/`；`1.png`就是`https://baidu.com/1.png`)
@@ -183,13 +183,17 @@ js_edit(){
     choice=$?
     if [ $choice == 1 ];then
         prompt -x "开始批量替换......"
+        # 要替换的前缀
+        js_dst="html-template/websites/dist/"
         #### 开始批量替换
         for ((i=0;i<$js_fp_len;i++));do
             filepath=${js_fp[$i]}
             prompt -x "正在修改文件：$filepath"
-            # ^img/*.(jpg)$
-            # sed 's#*.jpg#++++++++++++++++++++++++++++++++++++++++++++++++++++++#g' $filepath
-            sed 's/*jpg*/++++++++++++++++++++++++++++++++++++++++++++++++++++++/g' $filepath
+            # "img[a-z0-9A-Z./]\+\(jpg\|png\)
+            # 首先追加字符串
+            sed -i 's#"img[a-z0-9A-Z./]\+\(jpg\|png\)#"'$js_dst'&#' $filepath
+            # 在替换掉引号
+            sed -i 's#\"'$js_dst'\"#'\"$js_dst'#g' $filepath
         done
         prompt -m "JS文件修改完成。"
     elif [ $choice == 2 ];then
@@ -235,4 +239,4 @@ dst_list_len=${#dst_list[@]}
 html_edit
 
 # TODO: JS批量替换失败，正则表达式不通过
-# js_edit
+js_edit
