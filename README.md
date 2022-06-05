@@ -120,6 +120,8 @@
 #### 17-illdy2.0.1-主页(PHP/WP)
 
 >from https://colorlib.com
+>
+>`CHANGELOG.zip`是被Gitee代码审核神奇误判的文件
 
 ![17](img/17.png)
 
@@ -150,6 +152,12 @@
 ### 友情链接
 
 [Weather](http://rmshadows.gitee.io/html-template/websites/dist/)
+
+### 更新日志
+
+- 2022.06.05 —— 解决Gitee代码审核误判的文件
+  - 压缩了模板10中`single-post.html`文件
+  - 压缩了模板17中`CHANGELOG.txt`文件
 
 ### 最后的最后
 
