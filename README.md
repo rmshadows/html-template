@@ -76,6 +76,8 @@
 #### [10-Mag.-视频网站模板](/html-template/10)
 
 > from http://www.mobanwang.com / https://colorlib.com/
+>
+> 使用前请解压`single-post.zip` （被Gitee奇怪的代码审核机制误拦截的网页文件，很无语）
 
 ![10](img/10.png)
 
